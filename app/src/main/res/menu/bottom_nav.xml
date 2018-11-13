@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@drawable/ic_menu_terkini"
+        android:title="HOME"/>
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/ic_menu_terbaru"
+        android:title="TREND"/>
+    <item
+        android:id="@+id/action_item3"
+        android:icon="@drawable/ic_menu_populer"
+        android:title="MOVIE"/>
+    <item
+        android:id="@+id/action_item4"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="PROFIL"/>
+</menu>

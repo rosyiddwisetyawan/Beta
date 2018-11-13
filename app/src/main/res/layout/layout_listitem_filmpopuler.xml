@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_layout_filmpopuler">
+
+    <android.support.v7.widget.CardView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="1dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/thumbnailimage"
+                android:id="@+id/idImageTop"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_below="@+id/idImageTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AA000000"
+                android:padding="8dip"
+                android:id="@+id/idTitleTop"
+                android:textColor="#ffffffff" />
+
+            <RelativeLayout
+                android:background="#80FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_toRightOf="@+id/image_rate"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:id="@+id/idrate"
+                    android:text="test"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/image_rate"
+                    android:scaleType="centerCrop"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_below="@+id/idTitleTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00-00-0000"
+                android:id="@+id/idDate"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

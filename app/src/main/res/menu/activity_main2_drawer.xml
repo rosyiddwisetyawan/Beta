@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Beranda">
+        <menu>
+            <item
+                android:id="@+id/nav_terbaru"
+                android:icon="@drawable/ic_menu_terbaru"
+                android:title="Terbaru" />
+            <item
+                android:id="@+id/nav_terkini"
+                android:icon="@drawable/ic_menu_terkini"
+                android:title="Terkini" />
+            <item
+                android:id="@+id/nav_populer"
+                android:icon="@drawable/ic_menu_populer"
+                android:title="Populer" />
+        </menu>
+    </item>
+
+    <item android:title="Kanal">
+        <menu>
+            <item
+                android:id="@+id/nav_politik"
+                android:title="Politik" />
+            <item
+                android:id="@+id/nav_ekonomi"
+                android:title="Ekonomi" />
+            <item
+                android:id="@+id/nav_teknologi"
+                android:title="Teknologi" />
+            <item
+                android:id="@+id/nav_otomotif"
+                android:title="Otomotif" />
+            <item
+                android:id="@+id/nav_bola"
+                android:title="Bola" />
+        </menu>
+    </item>
+
+</menu>
