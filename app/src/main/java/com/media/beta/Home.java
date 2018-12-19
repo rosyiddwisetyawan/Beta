@@ -29,7 +29,7 @@ public class Home extends AppCompatActivity {
 
             }
         },SPLASH_TIME_OUT);
-
+		// test commit
     }
 
 }
